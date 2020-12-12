@@ -1,0 +1,22 @@
+{
+    "name": "kiinz/users",
+    "authors": [
+        {
+            "name": "kawaibii",
+            "email": "khoanld98@gmail.com"
+        }
+    ],
+    "extra": {
+        "laravel" : {
+            "providers" : [
+                "lekhoan\\users\\src\\userPackageServiceProvider.php"
+            ]
+        }
+    },
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "lekhoan\\users\\": "packages/lekhoan/users/src"
+        }
+    }
+}
